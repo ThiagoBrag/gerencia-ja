@@ -1,0 +1,87 @@
+.Tudo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.FraseInicial {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    cursor: default;
+    font-family: fantasy;
+}
+
+.opcao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 30px;
+    border: solid black 2px
+}
+
+.opcao2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 30px;
+    border: solid black 2px
+}
+
+.opcao3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 30px;
+    border: solid black 2px
+}
+
+.FraseProdutos {
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.FraseClientes {
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.FrasePedidos {
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.botao2 {
+    margin-right: -48px!important;
+}
+
+.icone3 {
+    margin-left: -3px!important;
+}
+
+.botao3 {
+    margin-right: -56px!important;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    margin-right: -40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+span {
+    font-size: 50px;
+    margin: 0px
+}

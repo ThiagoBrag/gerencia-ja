@@ -22,10 +22,10 @@ export class LoginComponent implements OnInit {
   logar() {
     console.log(this.username, this.password);
     const users = [
-      { login: 'bruno', password: '123' },
-      { login: 'henrique', password: '123' },
-      { login: 'verbinnen', password: '123' },
-      { login: 'a', password: 'a' },
+      { login: 'thiago', password: '123' },
+      { login: 'a', password: 'b' },
+      { login: 'c', password: 'd' },
+      { login: 'e', password: 'f' },
     ];
 
     const find = users.find(e => e.login == this.username && e.password == this.password);

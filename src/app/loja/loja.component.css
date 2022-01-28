@@ -41,30 +41,48 @@
 }
 
 .FraseProdutos {
+    cursor: default;
     margin-right: 30px;
     margin-left: 50px;
 }
 
 .FraseClientes {
-    margin-right: 30px;
+    cursor: default;
+    margin-right: 36px;
     margin-left: 50px;
 }
 
 .FrasePedidos {
-    margin-right: 30px;
+    cursor: default;
+    margin-right: 37px;
     margin-left: 50px;
 }
 
-.botao2 {
-    margin-right: -48px!important;
+.botao1 {
+    position: absolute;
+    margin-left: 26%;
 }
 
-.icone3 {
-    margin-left: -3px!important;
+.botao2 {
+    position: absolute;
+    margin-left: 26%;
 }
 
 .botao3 {
-    margin-right: -56px!important;
+    position: absolute;
+    margin-left: 26%;
+}
+
+.icone1 {
+    cursor: default;
+}
+
+.icone2 {
+    cursor: default;
+}
+
+.icone3 {
+    cursor: default;
 }
 
 .logout {

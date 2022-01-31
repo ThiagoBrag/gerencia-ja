@@ -7,6 +7,9 @@
 }
 
 .Tudo {
+    margin-top: 90px;
+    margin-left: 480px;
+    position: absolute;
     display: flex;
     justify-content: center;
 }

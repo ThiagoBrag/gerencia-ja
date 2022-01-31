@@ -14,16 +14,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { LojaComponent } from './modulo-resto/loja/loja.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import CheckLogged from './checklogged';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
-  { path: 'loja', component: LojaComponent },
-  { path: 'clientes', component: ClientesComponent },
-  { path: 'clientes/:id', component: CadastroClientesComponent },
-  { path: 'produtos', component: ProdutosComponent },
-  { path: 'produtos/:id', component: CadastroProdutosComponent },
-  { path: 'pedidos', component: PedidosComponent },
-  { path: 'pedidos/:id', component: CadstroPedidosComponent },
+  { path: 'loja', component: LojaComponent, canActivate: [CheckLogged] },
+  { path: 'clientes', component: ClientesComponent, canActivate: [CheckLogged] },
+  { path: 'clientes/:id', component: CadastroClientesComponent, canActivate: [CheckLogged] },
+  { path: 'produtos', component: ProdutosComponent, canActivate: [CheckLogged] },
+  { path: 'produtos/:id', component: CadastroProdutosComponent, canActivate: [CheckLogged] },
+  { path: 'pedidos', component: PedidosComponent, canActivate: [CheckLogged] },
+  { path: 'pedidos/:id', component: CadstroPedidosComponent, canActivate: [CheckLogged] },
   { path: '*', redirectTo: '' }
 ];
 

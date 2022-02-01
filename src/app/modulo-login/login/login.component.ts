@@ -22,8 +22,7 @@ export class LoginComponent implements OnInit {
   logar() {
     localStorage.setItem('USERNAME', this.username);
     localStorage.setItem("PASSWORD", this.password);
-    this.router.navigate(['/loja'])
-    /* 
+    // this.router.navigate(['/loja'])
     const users = [
       { login: 'thiago', password: '123' },
       { login: 'a', password: 'b' },
@@ -37,8 +36,9 @@ export class LoginComponent implements OnInit {
       localStorage.setItem('USER', this.username);
       this.router.navigate(['/loja']);
     } else {
-      alert('Usuário não cadastrado!'); */
+      alert('Usuário não cadastrado!'); 
     }
   
 
+  }
 }
